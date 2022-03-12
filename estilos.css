@@ -97,6 +97,63 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
   }
+  /* why*/
+  .porque h2{
+    color: darkblue;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: initial;
+    font-size: 4rem;
+    width: 90%;
+    text-align: left;
+
+  }
+  .porque p{
+    color: gray;
+    font-size:  2rem;
+    width: 50%;
+  }
+
+  /*tarjetas*/
+  .cards{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+
+  }
+  .card{
+    box-shadow: 0px 5px 15px rgba(222, 240, 255, 0);
+    border-radius: 0.5rem;
+    padding: 3rem;
+  }
+  
+  .card i{
+    color: darkblue;
+    background-color: aqua;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-size: 3rem;
+  }
+  .card h3{
+    color: darkblue;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: initial;
+    font-size: 1.8rem;
+    width: 100%;
+    text-align: left;
+  }
+  .card p{
+    color: gray;
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .contenedor{
+    width: min(80%, 120 rem);
+    margin: 0 auto;
+  }
   .accordion {
     background-color: #eee;
     color: #444;
