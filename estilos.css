@@ -68,6 +68,30 @@
   .fa-clock{
     color: darkblue;
   }
+
+  /* citas*/
+  .citas{
+    position: absolute;
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    padding: 1rem;
+    margin: -16rem 1rem 1rem 15rem;
+    background-color: #FFFFFF;
+  }
+  .cita_c i{
+    color: darkblue;
+  }
+  .cita_c p{
+    padding-left: 1rem;
+  }
+  .btn_cita{
+    padding: 2rem;
+  }
+  .btn_cita a{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
   .logo {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
