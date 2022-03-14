@@ -46,6 +46,19 @@
     background-repeat: no-repeat;
     background-position: left center;
   }
+  .pr1 h1{
+    color: darkblue;
+    font-weight:400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: initial;
+    font-size: 5rem;
+    width: 90%;
+    text-align: left;
+  }
+  .pr1 p{
+    color: gray;
+    font-size: 2rem;
+  }
   .enfermera{
     background-image: url(assets/images/enfermera_jeringa.jpg);
     background-blend-mode: soft-light;
