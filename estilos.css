@@ -124,17 +124,17 @@
 
   }
   .card{
-    box-shadow: 0px 5px 15px rgba(222, 240, 255, 0);
-    border-radius: 0.5rem;
+    box-shadow: 0px 5px 15px rgb(52, 106, 151);
+    border-radius: .5rem;
     padding: 3rem;
   }
   
   .card i{
     color: darkblue;
-    background-color: aqua;
+    background-color: rgb(14, 11, 204);
     padding: 1rem;
-    border-radius: .5rem;
-    font-size: 3rem;
+    border-radius: .7rem;
+    font-size: 2rem;
   }
   .card h3{
     color: darkblue;
@@ -146,7 +146,7 @@
     text-align: left;
   }
   .card p{
-    color: gray;
+    color: rgba(128, 128, 128, 0.726);
     font-size: 1.5rem;
     width: 100%;
   }
@@ -154,16 +154,60 @@
     width: min(80%, 120 rem);
     margin: 0 auto;
   }
+
+  .seccion{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .prep_cnt{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .cubre_bocas{
+    margin-top:5rem ;
+    padding-left: 8rem;
+    background-image: url(assets/images/cubrebocas.jpg);
+    background-blend-mode: soft-light;
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .prep_contenido p{
+    color: gray;
+    font-size:  2rem;
+    width: 50%;
+  }
+  .prep_contenido h2{
+    color: darkblue;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: initial;
+    font-size: 3rem;
+    width: 50%;
+    text-align: left;
+  }
+
+  .acordeon{
+    margin-top: 2rem;
+    padding: 4rem;
+  }
+
   .accordion {
     background-color: #eee;
-    color: #444;
+    color: darkblue;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    font-weight: 600;
     transition: 0.4s;
   }
   
@@ -190,3 +234,189 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
+
+  .panel p{
+    color: gray;
+    font-size: 1rem;
+  }
+
+  .accordion i{
+    font-size: 12px;
+    color: darkblue;
+    padding-right: 1rem;
+    background-color: rgb(14, 11, 204);
+    padding: .8rem;
+    border-radius: .5rem;
+
+  }
+/* contacto*/
+
+.cnt-contact{
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.ctn-ctc h2{
+  color: darkblue;
+  font-weight:bold;
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform: initial;
+  font-size: 3rem;
+  width: 100%;
+  text-align: left;
+}
+
+.ctn-ctc p{
+  color: gray;
+  font-size: 2.5rem;
+  width: 90%;
+}
+
+.img-contact{
+  margin-top: 10rem;
+  padding-left: 8rem;
+  background-image: url(assets/images/enfermero_guapo.jpg);
+  background-blend-mode: soft-light;
+  height: 60rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.cnt-tarjetas{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 2rem;
+  padding: 2rem 2rem 2rem 0;
+}
+
+.cnt-tarjeta{
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 5px rgb(216, 216, 216);
+}
+
+.contenido-trj{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contenido-trj i{
+  color:darkblue;
+  font-size: 2rem;
+  background-color:rgb(0, 102, 255);;
+  padding: 1.5rem;
+  border-radius: .5rem;
+  margin-right: 1rem;
+}
+
+.contenido-trj h3{
+  color: darkblue;
+  font-weight:600;
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform: initial;
+  font-size: 2rem;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.contenido-trj p{
+  color: gray;
+  font-size: 1.6rem;
+  margin-top: 0;
+}
+
+.btn-c{
+  background-color: rgb(0, 102, 255);
+  color: darkblue;
+  font-weight:600 ;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 1rem;
+  border-radius: .5rem;
+  display: block;
+  margin: auto;
+}
+
+.btn-c:hover{
+  transition-duration: 0.4s;
+  background-color: darkblue;
+  color: rgb(0, 102, 255);
+  font-weight:300;
+  font-family:Arial, Helvetica, sans-serif;
+text-align: center;
+  padding: 1rem;
+  border-radius: .5rem;
+  display: block;
+  margin: auto;
+}
+
+
+  /* pie de pagina*/
+
+  .ctn-foot{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+ 
+.footer{   
+    background-color:rgba(128, 128, 128, 0.548);
+    padding: 4rem;
+}
+.leyenda{   
+    color: gray;
+    font-size: 1.5rem;
+    width: 60%;
+}
+ 
+.foot-menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+ 
+.ft-mnu h2{
+    color: darkblue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: initial;
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 0;
+}
+ 
+.lista li{
+    margin-top: 2rem;
+}
+ 
+.lista a{
+    color: gray;
+    font-size: 1.5rem;	
+}
+ 
+.copy p{
+    color: gray;
+    font-size: 1.6rem;
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+ 
+.copy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.copy div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+
